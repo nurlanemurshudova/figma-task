@@ -1,0 +1,123 @@
+@import url(font/font.css);
+.section-two {
+    padding-left: 10vh;
+    padding-bottom: 10vh;
+}
+
+.section-two h3 {
+    font-size: 8vh;
+    font-family: Roboto-Slab;
+}
+
+.section-two .p1 {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.section-two .p1 p {
+    width: 60%;
+    font-size: 3.5vh;
+}
+
+.section-two .p1 img {
+    width: 30%;
+}
+
+.section-two .main {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.section-two .main > img {
+    width: 25%;
+    margin-right: 10vw;
+    padding-top: 10vh;
+}
+
+.section-two .main .main-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.section-two .main .main-two .p-part p{
+    width: 80%;
+}
+
+
+@media(min-width:992px) and (max-width:1279px){
+    .section-two h3{
+        font-size: 32px;
+    }
+    .section-two .p1 p{
+        font-size: 14px;
+    }
+    .main .main-two .p-part h2{
+        font-size: 15px;
+    }
+    .main .main-two .p-part p{
+        font-size: 11px;
+    }
+    .main .img2{
+        width: 18%;
+        padding-top: 1vh;
+    }
+}
+
+@media(min-width:320px) and (max-width:991px){
+    .section-two{
+        padding-left: 10vw;
+        
+    }
+    .section-two h3{
+        font-size: 26px;
+        width: 100%;
+    }
+    .section-two .p1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-two .p1 p{
+        width: 110vw;
+        font-size: 12px;
+        line-height: 150%;
+    }
+    .section-two .p1 img{
+        margin: 0 30vw;
+        width: 50%;
+    }
+    .section-two .main{
+        width: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .section-two .main .main-two{
+        padding-top: 3vh;
+        width: 110vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .section-two .main .main-two .p-part p{
+        width: 80%;
+    }
+    .section-two .main-two h2{
+        font-size: 16px;
+        width: 100%;
+    }
+    .section-two .main-two p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .section-two .main img{
+        display: none;
+    }
+}
